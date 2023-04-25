@@ -16,6 +16,5 @@ public class ListTests{
         ListExamples sc = new ListExamples();
 
         assertArrayEquals(new String[]{"tes", "te1"}, ListExamples.filter(list, sc).toArray());
-
     }
 }
